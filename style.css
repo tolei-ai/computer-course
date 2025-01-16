@@ -1,0 +1,103 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and paragraph styles */
+h2 {
+  text-align: center;
+  color: #007bff;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Unit styles */
+.unit {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Unit header (accordion) styles */
+.unit-header {
+  width: 100%;
+  background-color: #3eb3c2;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.unit-header:hover {
+  background-color: #36a2ad;
+}
+
+/* Dropdown content styles */
+.resources {
+  display: none;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Dropdown headings */
+.resources h4 {
+  margin: 10px 0;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Links inside the list */
+ul li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Footer styles (optional if needed) */
+footer {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #666;
+}
